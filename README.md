@@ -28,7 +28,7 @@ Inserting in the equation the probable move of the enemy gives a first advantage
 
     FIRST MOVE
 The first move is critical. It can so the tactic here is:
-Greedy implementation for the enemy node ----> most possible orthological moves for them
+Greedy implementation for the enemy node ----> most possible orthological moves for them ---->
 Greedy implementation for our node in graphs with the most possible orthological moves of the enemy ----> most possible starting moves that will be efficient
 
     ACKNOWLEDGEMENT
