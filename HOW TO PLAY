@@ -1,0 +1,18 @@
+      Gameplay
+
+Run FlorentineFamilies_game.py but first change the initial edges, and in every round add or remove the edge that is needed, to make the current graph.
+
+TEAMS=[]                     #Teams that will challenge themselves
+TEAMS.append("Spaghetti")    #FRIENDLY TEAM-->Spaghetti
+G.add_node(TEAMS[-1])
+G.add_edge("Spaghetti","Medici")          ====Change this.====
+G.add_edge("Spaghetti","Peruzzi")
+
+TEAMS.append("Tortellini")   #ENEMY TEAM-->Tortellini
+G.add_node(TEAMS[-1])
+G.add_edge("Tortellini","Albizzi")       ===Change this.====
+G.add_edge("Tortellini","Peruzzi")
+
+   Optional First Move
+      
+ As a first code us this, so you can find out the best moves for starting the game.
