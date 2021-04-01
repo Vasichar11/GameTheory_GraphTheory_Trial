@@ -31,10 +31,9 @@ The first move is critical. It can so the tactic here is:
 Greedy implementation for the enemy node ----> most possible orthological moves for them ---->
 Greedy implementation for our node in graphs with the most possible orthological moves of the enemy ----> most possible starting moves that will be efficient
 
-    ACKNOWLEDGEMENT
+    VALUABLE ANNOTATIONS
 Won't work if the enemy is thinking exactly like us. The winner here will be the one that has the most nested loops and calculating the most probable moves of the enemy before implementing their algorithm.
 So whoever looks more forward has bigger chances of winning. Estimating further the moves of the enemy can be valuable.
 Doing so you will have to deal with many data that are difficult to handle.
 
-    VALUABLE ANNOTATION
 Finding out that the enemy is using greedy algorithm means that you are one step ahead. You know their next move, so you implement greedy algorithm on the new graph that includes their greedy act. No way to lose here, because a greedy implementation in a knowned graph is the perfect option.
